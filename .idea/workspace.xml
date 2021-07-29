@@ -1,34 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02e60abb-046d-4d0e-8a66-c1c2c015fd9a" name="Default Changelist" comment="change Falie name">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rango/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rango/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rango/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rango/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rango/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rango/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rango/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rango/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tango_with_django_project/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tango_with_django_project/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tango_with_django_project/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tango_with_django_project/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tango_with_django_project/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tango_with_django_project/.idea/mysite.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tango_with_django_project/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tango_with_django_project/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tango_with_django_project/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tango_with_django_project/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tango_with_django_project/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tango_with_django_project/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/rango/index.html" beforeDir="false" />
+    <list default="true" id="02e60abb-046d-4d0e-8a66-c1c2c015fd9a" name="Default Changelist" comment="In the setting section of Chapter 4, {% load staticfiles %}&#10;Not available, need to be changed to {% load static %}">
+      <change afterPath="$PROJECT_DIR$/templates/rango/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rango/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/rango/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +58,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Test/tango_with_django_2_code-chapter3/tango_with_django_project" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\tango_with_django_project\templates\rango" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.manage">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -179,7 +161,7 @@
       <workItem from="1627532503923" duration="463000" />
       <workItem from="1627534115276" duration="2795000" />
       <workItem from="1627536920956" duration="3456000" />
-      <workItem from="1627540390755" duration="3065000" />
+      <workItem from="1627540390755" duration="8297000" />
     </task>
     <task id="LOCAL-00001" summary="Test for github">
       <created>1627428841931</created>
@@ -230,7 +212,21 @@
       <option name="project" value="LOCAL" />
       <updated>1627536676035</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="In the setting section of Chapter 4, {% load staticfiles %}&#10;Not available, need to be changed to {% load static %}">
+      <created>1627543533492</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1627543533492</updated>
+    </task>
+    <task id="LOCAL-00009" summary="In the setting section of Chapter 4, {% load staticfiles %}&#10;Not available, need to be changed to {% load static %}">
+      <created>1627543592767</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1627543592768</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +254,8 @@
     <MESSAGE value="Test for github" />
     <MESSAGE value="url to urls" />
     <MESSAGE value="change Falie name" />
-    <option name="LAST_COMMIT_MESSAGE" value="change Falie name" />
+    <MESSAGE value="In the setting section of Chapter 4, {% load staticfiles %}&#10;Not available, need to be changed to {% load static %}" />
+    <option name="LAST_COMMIT_MESSAGE" value="In the setting section of Chapter 4, {% load staticfiles %}&#10;Not available, need to be changed to {% load static %}" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/manage_py$tests.coverage" NAME="tests Coverage Results" MODIFIED="1627516951201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rango" />
